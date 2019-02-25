@@ -20,6 +20,7 @@ Single Todo: {{ $todo->name }}
         {{ $todo->description }}
       </div>
     </div>
+    <a href="/todos/{{ $todo->id }}/edit" class="btn btn-info btn-sm my-2">Edit</a>
   </div>
 </div>
 @endsection
